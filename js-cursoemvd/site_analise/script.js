@@ -22,21 +22,12 @@ function adicionar() {
 
 function analisar() {
   var res = document.querySelector("div#res");
-  var menor = 0;
-  var maior = 0;
-  var soma = 0;
-  nums.sort;
+  nums.sort();
   var tamanho = nums.length;
+  var menor = nums[0];
+  var maior = nums[tamanho-1];
+  var soma = 0;
   for (var num in nums) {
-    switch (num) {
-      case 0: {
-        menor = nums[num];
-        break;
-      }
-      case tamanho - 1:
-        maior = nums[num];
-        break;
-    }
     soma += nums[num];
   }
   var media = soma / tamanho;
