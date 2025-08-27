@@ -7,7 +7,7 @@ msg.innerHTML = `Agora sao ${hora} horas`
 
 if (hora >= 0 && hora < 12){
  img.src = "manha.png"
- document.body.style.background = '#ffe387ff'
+ document.body.style.background = '#d3b03dff'
 } else if(hora >= 12 && hora < 18) {
  img.src = "tarde.png" 
  document.body.style.background = '#cca740'
